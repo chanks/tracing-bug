@@ -1,0 +1,11 @@
+[package]
+name = "tracing-bug"
+version = "0.1.0"
+authors = ["Chris Hanks <christopher.m.hanks@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tracing = { version = "0.1.19", features = ["attributes"] }
+tokio = { version = "0.2.21", features = ["full"] }
