@@ -8,4 +8,4 @@ edition = "2018"
 
 [dependencies]
 tracing = { version = "0.1.19", features = ["attributes"] }
-tokio = { version = "0.2.21", features = ["full"] }
+tokio = { version = "0.2.22", features = ["full"] }
